@@ -69,7 +69,7 @@ class LetterAdapter :
             // Create an Intent and pass in the context, as well as the class name of the destination activity
             val intent = Intent(context, DetailActivity::class.java)
             // Attach an extra to the intent (some data payload)
-            intent.putExtra("letter", holder.button.text.toString())
+            intent.putExtra(DetailActivity.LETTER, holder.button.text.toString())
             // Start destination activity
             context.startActivity(intent)
         }
