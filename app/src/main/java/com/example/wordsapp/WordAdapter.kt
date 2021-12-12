@@ -86,7 +86,7 @@ class WordAdapter(private val letterId: String, context: Context) :
         holder.button.setOnClickListener {
             // Create URI for google search query
             // parse() helps u create a URI from a String
-            val queryUrl: Uri = Uri.parse("${DetailActivity.SEARCH_PREFIX}${item}")
+            val queryUrl: Uri = Uri.parse("${WordListFragment.SEARCH_PREFIX}${item}")
             // Initialise new intent object. Notice how it is diff to what we did
             // for explicit intent in WordAdapter (where we passed a context and an activity)
             // ACTION_VIEW is a generic intent that takes a URI and the system knows how to
