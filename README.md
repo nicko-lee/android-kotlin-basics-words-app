@@ -24,3 +24,10 @@ The app demonstrates the use of Intents in two ways:
 2. Download the sample.
 3. Import the sample into Android Studio.
 4. Build and run the sample.
+
+# Screenshots
+<img src="https://user-images.githubusercontent.com/37054216/145701577-a7690720-32ab-4176-bb13-7a4c2d9c1b29.png" width="210">
+
+<img src="https://user-images.githubusercontent.com/37054216/145701602-4971dae7-69ae-4fbe-b8f5-a9980ee4bbd3.png" width="210">
+
+<img src="https://user-images.githubusercontent.com/37054216/145701662-9b3fcb55-b9cf-427b-a802-6f17123ec58d.png" width="210">
